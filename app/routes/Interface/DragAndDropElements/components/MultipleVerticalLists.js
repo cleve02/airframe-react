@@ -7,7 +7,7 @@ import {
     Draggable
 } from 'react-beautiful-dnd';
 import uid from 'uuid/v4';
-import faker from 'faker/locale/en_US';
+import faker from '@faker-js/@faker-js/faker/locale/en_US';
 import classNames from 'classnames';
 import {
     Card,

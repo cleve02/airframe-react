@@ -45,7 +45,7 @@ import TooltipPopovers from './Interface/TooltipsPopovers';
 import Typography from './Interface/Typography';
 import Notifications from './Interface/Notifications';
 import CropImage from './Interface/CropImage';
-import DragAndDropElements from './Interface/DragAndDropElements';
+// import DragAndDropElements from './Interface/DragAndDropElements';
 import Calendar from './Interface/Calendar';
 import ReCharts from './Graphs/ReCharts';
 
@@ -158,7 +158,7 @@ export const RoutedContent = () => {
             <Route component={ Typography } path="/interface/typography" />
             <Route component={ Notifications } path="/interface/notifications" />
             <Route component={ CropImage } path="/interface/crop-image" />
-            <Route component={ DragAndDropElements } path="/interface/drag-and-drop-elements" />
+            {/* <Route component={ DragAndDropElements } path="/interface/drag-and-drop-elements" /> */}
             <Route component={ Calendar } path="/interface/calendar" />
 
             { /*    Forms Routes    */ }
