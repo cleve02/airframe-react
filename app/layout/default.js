@@ -12,6 +12,7 @@ import './../styles/bootstrap.scss';
 import './../styles/main.scss';
 import './../styles/plugins/plugins.scss';
 import './../styles/plugins/plugins.css';
+import './../routes/Screens/custom.css';
 
 import {
     RoutedNavbars,

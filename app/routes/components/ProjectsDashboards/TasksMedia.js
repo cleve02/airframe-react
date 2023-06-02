@@ -16,7 +16,7 @@ const TasksMedia = (props) => (
             </Media>
             <Media body>
                 <div className="mt-0 mb-2">
-                    <Link to="/apps/tasks/tasks-details" className="text-decoration-none">
+                    <Link to="/detail" className="text-decoration-none">
                         { faker.hacker.phrase() }
                     </Link>
                 </div>

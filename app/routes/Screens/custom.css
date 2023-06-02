@@ -1,0 +1,16 @@
+.scrollable-list-group {
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.scroll-indicator {
+    animation: scrollBounce 1s ease-in-out infinite;
+    text-align: center;
+    color: #888;
+}
+
+@keyframes scrollBounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
